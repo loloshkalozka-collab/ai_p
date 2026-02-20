@@ -292,24 +292,7 @@
   </div>
   <script src="./js/deposit.js" ></script>
   <script src="./js/transacrion.js" ></script>
-  </body><script>
-    const actions = document.querySelector('.actions');
-const toggleBtn = document.getElementById('actionToggle');
-
-if (actions && toggleBtn) {
-  toggleBtn.addEventListener('click', () => {
-    const isOpen = actions.classList.toggle('open');
-    toggleBtn.setAttribute('aria-expanded', String(isOpen));
-  });
-
-  // закрывать при клике вне меню
-  document.addEventListener('click', (e) => {
-    if (!actions.contains(e.target)) {
-      actions.classList.remove('open');
-      toggleBtn.setAttribute('aria-expanded', 'false');
-    }
-  });
-}
-  </script>
+   <script src="./js/action.js" ></script>
+  </body>
 </body>
 </html>
