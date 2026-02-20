@@ -194,6 +194,10 @@
         radial-gradient(110px 56px at 30% 25%, rgba(170,105,255,.25), transparent 60%),
         radial-gradient(120px 60px at 80% 115%, rgba(72,170,255,.14), transparent 55%);
     }
+    a[href^="tel"]{
+      color: inherit !important;
+      text-decoration: none !important;
+    }
 
     .grid{
       display:grid;
